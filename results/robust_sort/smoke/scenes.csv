@@ -1,0 +1,6 @@
+seed,cube_count,success,correct_cubes,wall_time_s,sim_time_s,sim_steps,color_order,grasp_order,failure_type,failure_reason
+7300,2,True,2,16.665860600000087,42.30000000000573,21150,blue red,cube_1 cube_2,,
+7302,2,True,2,16.78465800000049,42.30000000000573,21150,red blue,cube_1 cube_2,,
+7303,3,True,3,26.765055300000313,63.45000000003158,31725,red blue red,cube_3 cube_1 cube_2,,
+7301,3,True,3,26.932722800000192,63.45000000003158,31725,red blue red,cube_2 cube_3 cube_1,,
+7304,2,True,2,17.610570999999254,42.30000000000573,21150,blue red,cube_2 cube_1,,

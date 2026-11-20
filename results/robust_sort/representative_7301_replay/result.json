@@ -1,0 +1,111 @@
+{
+  "scene": {
+    "seed": 7301,
+    "cube_count": 3,
+    "success": true,
+    "correct_cubes": 3,
+    "sim_time_s": 63.45000000003158,
+    "sim_steps": 31725,
+    "grasp_order": "cube_2 cube_3 cube_1",
+    "color_order": "red blue red",
+    "failure_type": "",
+    "failure_reason": ""
+  },
+  "objects": [
+    {
+      "seed": 7301,
+      "cube_count": 3,
+      "cube": "cube_1",
+      "color": "red",
+      "initial_x_m": 0.591778258745377,
+      "initial_y_m": -0.20739924497118295,
+      "initial_z_m": 0.29,
+      "initial_yaw_deg": 49.40804792098082,
+      "slot": "red_2",
+      "correct": true,
+      "final_x_m": 0.4449979426120135,
+      "final_y_m": 0.23519532042338623,
+      "final_z_m": 0.28249925454003905,
+      "final_xy_error_m": 0.0001953312587301576,
+      "final_yaw_error_deg": 0.06335941022267158,
+      "hold_s": 1.1
+    },
+    {
+      "seed": 7301,
+      "cube_count": 3,
+      "cube": "cube_2",
+      "color": "blue",
+      "initial_x_m": 0.587406665860634,
+      "initial_y_m": 0.0013929846903034948,
+      "initial_z_m": 0.29,
+      "initial_yaw_deg": -146.0877015340056,
+      "slot": "blue_1",
+      "correct": true,
+      "final_x_m": 0.6049665057626857,
+      "final_y_m": 0.1759114566736717,
+      "final_z_m": 0.28249925454003905,
+      "final_xy_error_m": 9.466670254393499e-05,
+      "final_yaw_error_deg": 0.018085368926363116,
+      "hold_s": 1.1
+    },
+    {
+      "seed": 7301,
+      "cube_count": 3,
+      "cube": "cube_3",
+      "color": "red",
+      "initial_x_m": 0.4439895192228638,
+      "initial_y_m": -0.17971666666446243,
+      "initial_z_m": 0.29,
+      "initial_yaw_deg": -0.5346293598152361,
+      "slot": "red_1",
+      "correct": true,
+      "final_x_m": 0.40995030929344856,
+      "final_y_m": 0.12476921645317483,
+      "final_z_m": 0.2824992545400391,
+      "final_xy_error_m": 0.0002360724715056443,
+      "final_yaw_error_deg": 0.06169257353609374,
+      "hold_s": 1.1
+    }
+  ],
+  "attempts": [
+    {
+      "seed": 7301,
+      "attempt": 1,
+      "cube": "cube_2",
+      "color": "blue",
+      "slot": "blue_1",
+      "success": true,
+      "state": "RETREAT",
+      "failure_type": "",
+      "reason": "",
+      "start_time_s": 0.0,
+      "end_time_s": 21.149999999999157
+    },
+    {
+      "seed": 7301,
+      "attempt": 2,
+      "cube": "cube_3",
+      "color": "red",
+      "slot": "red_1",
+      "success": true,
+      "state": "RETREAT",
+      "failure_type": "",
+      "reason": "",
+      "start_time_s": 21.149999999999157,
+      "end_time_s": 42.30000000000573
+    },
+    {
+      "seed": 7301,
+      "attempt": 3,
+      "cube": "cube_1",
+      "color": "red",
+      "slot": "red_2",
+      "success": true,
+      "state": "RETREAT",
+      "failure_type": "",
+      "reason": "",
+      "start_time_s": 42.30000000000573,
+      "end_time_s": 63.45000000003158
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Seed 7301, three cubes, first video replay. Exit code 1.
+The video writer had closed before the JSON export failed.
+
+Original stderr excerpt
+    (output / "result.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    TypeError: Object of type int64 is not JSON serializable
+
+Same-seed replay after normalizing exported scalar types
+    ../representative_7301_replay/result.json

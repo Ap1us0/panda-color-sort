@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "../evaluation",
+    "scene_count": 30,
+    "first_seed": 20261120,
+    "last_seed": 20261149,
+    "csv_sha256": {
+      "scenes": "df9e14aa414ea2086041b5c50f1cd1527c103d6110a02d0841d15236b92f5161",
+      "objects": "d07fef531e8f918220ecab25ffa5d5716313909b176164a4719ebe0c78a073a2",
+      "attempts": "49e0b2ec7c93eee52a4b921caf13d3fd81cec23ba236c18d2e9b7228c38b3910",
+      "failures": "4be3eedad6281e684f95136f3cb621726253f3d4095e2f2b40bc80534da1ed6a"
+    }
+  },
+  {
+    "directory": "../extension_70/evaluation",
+    "scene_count": 70,
+    "first_seed": 20261150,
+    "last_seed": 20261219,
+    "csv_sha256": {
+      "scenes": "5f4b4e494ddda302cc834f08656fbf58a95411349c1588fbba096e5a634cb798",
+      "objects": "c7153a1aba7eb0e0cb28ebb1dfde78834ff4520a720c1247ce8e861ea312e5dc",
+      "attempts": "15000aa488bcb8c98fef5a157bbd340a2a03536da98664d0ff6ef302a95b8784",
+      "failures": "4be3eedad6281e684f95136f3cb621726253f3d4095e2f2b40bc80534da1ed6a"
+    }
+  }
+]

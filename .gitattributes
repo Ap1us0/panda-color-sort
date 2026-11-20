@@ -1,0 +1,3 @@
+# Preserve the model and experiment CSV bytes used for provenance checks.
+models/franka_emika_panda/** -text
+results/**/*.csv -text

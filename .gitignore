@@ -1,0 +1,7 @@
+/.venv/
+/outputs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+MUJOCO_LOG.TXT

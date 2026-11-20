@@ -1,0 +1,33 @@
+<mujoco model="Panda pick and place">
+  <include file="scene.xml"/>
+
+  <visual>
+    <global offwidth="960" offheight="540"/>
+  </visual>
+
+  <worldbody>
+    <geom name="table" type="box" pos="0.53 0 0.235" size="0.22 0.30 0.025"
+          friction="0.8 0.01 0.001" rgba="0.36 0.41 0.46 1"/>
+    <geom name="table_leg_1" type="box" pos="0.34 -0.26 0.105" size="0.023 0.023 0.105"
+          rgba="0.24 0.28 0.32 1"/>
+    <geom name="table_leg_2" type="box" pos="0.72 -0.26 0.105" size="0.023 0.023 0.105"
+          rgba="0.24 0.28 0.32 1"/>
+    <geom name="table_leg_3" type="box" pos="0.34 0.26 0.105" size="0.023 0.023 0.105"
+          rgba="0.24 0.28 0.32 1"/>
+    <geom name="table_leg_4" type="box" pos="0.72 0.26 0.105" size="0.023 0.023 0.105"
+          rgba="0.24 0.28 0.32 1"/>
+    <site name="place_goal" type="cylinder" pos="0.50 0.17 0.2605" size="0.046 0.0005"
+          rgba="0.19 0.86 0.58 0.86"/>
+    <body name="cube" pos="0.49 -0.12 0.29">
+      <freejoint name="cube_free"/>
+      <!-- Ixx = Iyy = Izz = m * side^2 / 6 for a uniform 45 mm cube. -->
+      <inertial pos="0 0 0" mass="0.075" diaginertia="0.0000253125 0.0000253125 0.0000253125"/>
+      <geom name="cube" type="box" size="0.0225 0.0225 0.0225" condim="4"
+            friction="1.4 0.006 0.001" solref="0.008 1" rgba="0.98 0.43 0.12 1"/>
+    </body>
+  </worldbody>
+  <contact>
+    <pair name="cube_table" geom1="table" geom2="cube" condim="4" friction="0.8 0.8 0.006 0.001 0.001"
+          solref="0.004 1" solimp="0.95 0.99 0.001"/>
+  </contact>
+</mujoco>
