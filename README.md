@@ -7,8 +7,13 @@
 在种子 `20261120–20261219` 的 100 个 headless 场景中，**100/100 轮完整成功，250/250 块正确落槽**。2 块和 3 块模式各 50 轮，最大落槽中心误差为 **0.744 mm**。这批实验使用桌面上经过可达性、间距与碰撞检查的随机初始布局。
 
 ![100 轮的单块、整轮成功率与耗时](results/robust_sort/combined_100/metrics.png)
+### 🎬 机械臂自主颜色分拣演示
 
-[观看三块分拣演示](results/robust_sort/representative_7301/sort.mp4) · [完整实验说明](docs/robust-sort.md) · [100 轮场景 CSV](results/robust_sort/combined_100/scenes.csv) · [方块 CSV](results/robust_sort/combined_100/objects.csv) · [失败记录](results/robust_sort/combined_100/failures.csv)
+基于 MuJoCo 的 Franka Panda 机械臂，实现多目标方块的自主抓取、搬运和颜色分拣。
+
+(https://github.com/user-attachments/assets/efb5af5d-e2cb-42ed-b24d-ad079b7fccaa)
+
+·[完整实验说明](docs/robust-sort.md) · [100 轮场景 CSV](results/robust_sort/combined_100/scenes.csv) · [方块 CSV](results/robust_sort/combined_100/objects.csv) · [失败记录](results/robust_sort/combined_100/failures.csv)
 
 ## 快速运行
 
